@@ -1,0 +1,25 @@
+@import "fonts";
+
+.links{
+  text-align: center;
+  margin: 110px auto 20px;
+  &__item{
+    margin: 10px 35px;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: Albel-Regular,sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    letter-spacing: 5px;
+  }
+}
+a{
+  text-decoration: none;
+}
+.item-title{
+  color: black;
+
+  &:hover{
+    color: gray;
+  }
+}
